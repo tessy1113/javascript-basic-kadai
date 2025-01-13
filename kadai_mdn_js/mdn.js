@@ -1,3 +1,7 @@
 const date = new Date(2024, 9, 12);
-const formattedDate = date.getFullYear() + "年" + (date.getMonth() + 1) + "月" + date.getDate() + "日";
+const year = date.getFullYear();
+const month = date.getMonth() + 1;
+const day = date.getDate(); 
+const formattedDate = year + "年" + month + "月" + day + "日";
+
 console.log(formattedDate);
